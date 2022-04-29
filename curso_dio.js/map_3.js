@@ -1,4 +1,4 @@
-/*function getadmins(map) {
+function getadmins(map) {
     let admin = [];
     for([key,value] of map) {
         if(value == 'admin') {
@@ -15,19 +15,19 @@ usuarios.set('Carlos', 'admin');
 usuarios.set('Alana', 'User');
 usuarios.set('Cassio', 'admin');
 
-console.log(getadmins(usuarios)); */
+console.log(getadmins(usuarios)); 
 
-/*const meuArray = [30,30,40,5,223,2049,3034,5]
+const meuArray = [30,30,40,5,223,2049,3034,5]
 
 function valoresUnicos(arr) {
     const mySet = new Set(arr)
     return [...mySet]
-}*/
+}
 
 
 
 
-/*function declarandoArray(arr, num){
+function declarandoArray(arr, num){
     try {
         if(!arr && num) throw new ReferenceError("Envie os parâmatros");
 
@@ -59,9 +59,9 @@ function valoresUnicos(arr) {
         
     }
 
-    console.log(declarandoArray()); */
+    console.log(declarandoArray()); 
 
-/*function validaArrays(arr, num) {
+    function validaArrays(arr, num) {
     try {
         if (!arr && !num) throw new ReferenceError('Envie os parâmetros!');
 
@@ -88,5 +88,6 @@ function valoresUnicos(arr) {
     }
 }
 
-console.log(validaArrays()); */
+console.log(validaArrays()); 
+
 
